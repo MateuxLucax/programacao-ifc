@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../css/style.css" type="text/css">
+	<link rel="icon" href="../img/DesignAdaptativo.png">
+	<title> Design Adaptativo </title>
+</head>
+
+<body>
+	<!-- CABEÇALHO -->
+	<header class="cabecalho container">
+		<a href="../index.html">
+			<h1 class="logo"> Web Design </h1>
+		</a>
+		<button class="abrir-menu bg-gradient"><img class="iconeMenu" src="../img/menu.png"></button>
+		<nav class="menu">
+			<a class="fechar-menu">X</a>
+			<ul>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="MobileFirst.html">Mobile First</a></li>
+				<li><a href="DesignFluido.html">Design Fluido</a></li>
+				<li><a href="DesignResponsivo.html">Design Responsivo</a></li>
+				<li><a href="#">Design Adaptativo</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!-- TITULO -->
+	<div class="banner container">
+		<div class="title">
+			<h2> DESIGN ADAPTATIVO </h2>
+			<h3> A intenção do design adaptativo é fazer algumas adaptações, sem abandonar as medidas fixas. Textos e imagens não recebem tratamento diferenciado, é desenvolvido baseado no mesmo layout e código que são desenvolvidos para desktops.</h3>
+		</div>
+	</div>
+	<!-- CONTEUDO -->
+	<main style="text-align: justify;">
+		<div class="conteudo bg-white">
+			<h1>DESIGN ADAPTATIVO</h1>
+			<div class="conteudo-primeiro">
+				<h2>O QUE É?</h2>
+				<p>Durante muito tempo especialistas de diversas áreas previram o crescimento do uso dos dispositivos móveis. Demorou um pouco mas a previsão se tornou verdadeira. Hoje todo mundo carrega um pedaço de plástico com uma tela de vidro na mão o dia inteiro… quase uma extensão de nossos corpos. Os dispositivos móveis se tornaram uma febre e vieram para ficar. É a melhor forma de fazer a inclusão digital para aqueles que não tem uma forma de ter um notebook ou um desktop em casa. Não estou falando daqueles smartphones de R$1500, mas dos muitos smartphones, com teclados qwerty, prontos para internet e que custam R$200. Isso sim é inclusão digital para as massas de verdade.
+				</p>
+				<img src="../img/Adaptive.png" alt="Mobile First(1)" class="conteudo-img1">
+			</div>
+		</div>
+	</main>
+	<!-- RODAPÉ -->
+	<footer class="rodape container bg-gradient">
+		<p class="copyright">
+			Copyright © MateusLucas 2017. Todos os direitos reservados.
+	</footer>
+
+	<!-- JQUERY -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script>
+		$(".abrir-menu").click(function() {
+			$(".menu").show();
+		});
+		$(".fechar-menu").click(function() {
+			$(".menu").hide();
+		});
+
+	</script>
+</body>
+
+</html>

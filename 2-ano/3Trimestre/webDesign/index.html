@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="icon" href="img/icon.png">
+	<title> Web Design </title>
+</head>
+
+<body>
+	<!-- CABEÇALHO -->
+	<header class="cabecalho container">
+		<a href="index.html">
+			<h1 class="logo"> Web Design </h1>
+		</a>
+		<button class="abrir-menu bg-gradient"><img class="iconeMenu" src="img/menu.png"></button>
+		<nav class="menu">
+			<a class="fechar-menu">X</a>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="html/MobileFirst.html">Mobile First</a></li>
+				<li><a href="html/DesignFluido.html">Design Fluido</a></li>
+				<li><a href="html/DesignResponsivo.html">Design Responsivo</a></li>
+				<li><a href="html/DesignAdaptativo.html">Design Adaptativo</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!-- TITULO -->
+	<div class="banner container">
+		<div class="title">
+			<h2> WEB DESIGN </h2>
+			<h3> É o ramo do Desnvolvimento Web que procura tornar os sites mais intuitivos, belos, e adaptados aos diferentes dispositivos, sem sacrificar seu funcionamento.</h3>
+		</div>
+	</div>
+	<!-- ARTIGOS -->
+	<main class="artigos container">
+		<article class="artigo bg-white borda">
+			<a href="html/MobileFirst.html"><img src="img/MobileFirst.jpg" alt="Mobile First"></a>
+			<div class="conteudo-artigo">
+				<a href="html/MobileFirst.html"> Mobile First </a>
+				<p>Mobile First é um conceito aplicado em projetos web onde o foco inicial da arquitetura e desenvolvimento é direcionado aos dispositivos móveis e em seguida para os desktops. A técnica tem se popularizado cada vez mais entre os profissionais de marketing e tecnologia.</p>
+			</div>
+		</article>
+		<article class="artigo bg-white borda">
+			<a href="html/DesignFluido.html"><img src="img/DesignFluido.jpg" alt="Design Fluido"></a>
+			<div class="conteudo-artigo">
+				<a href="html/DesignFluido.html"> Design Fluido </a>
+				<p>Os layouts fluídos são aqueles que acompanham o tamanho da tela, apenas aumentando e diminuindo, não trocando estrutura e não pensando muito na usabilidade, vamos pensar em acessar um site em uma tv de 50″ e acessar o mesmo site em um celular</p>
+			</div>
+		</article>
+		<article class="artigo bg-white borda">
+			<a href="html/DesignResponsivo.html"><img src="img/DesignResponsivo.jpg" alt="Design Responsivo"></a>
+			<div class="conteudo-artigo">
+				<a href="html/DesignResponsivo.html"> Design Responsivo </a>
+				<p>Design Responsivo é aquele que consegue se adaptar a diferentes telas e quando afirmo que ele se adapta não estou dizendo que ele simplesmente funciona, um projeto responsivo se reorganiza da melhor forma para apresentar seu conteúdo. Vem sendo muito empregado atualmente.</p>
+			</div>
+		</article>
+		<article class="artigo bg-white borda">
+			<a href="html/DesignAdaptativo.html"><img src="img/DesignAdaptativo.png" alt="Design Responsivo"></a>
+			<div class="conteudo-artigo">
+				<a href="html/DesignAdaptativo.html"> Design Adaptativo </a>
+				<p>A intenção do design adaptativo é fazer algumas adaptações, sem abandonar as medidas fixas. Textos e imagens não recebem tratamento diferenciado, é desenvolvido baseado no mesmo layout e código que são desenvolvidos para desktops.</p>
+			</div>
+		</article>
+		<article class="artigo bg-white borda">
+			<a href="http://www.des1gnon.com/2013/06/a-nova-tendencia-do-flat-design-o-que-por-que/" target="_blank"><img src="img/FlatDesign.png" alt="Flat Design"></a>
+			<div class="conteudo-artigo">
+				<a href="http://www.des1gnon.com/2013/06/a-nova-tendencia-do-flat-design-o-que-por-que/" target="_blank"> Flat Design </a>
+				<p>Essa tendência do web design é a pura simplicidade dos elementos, da clareza do layout. Se distingue por suas formas cleans e planas. O conceito funciona sem variações na estrutura do layout, como chanfros, relevo, ou gradientes.</p>
+			</div>
+		</article>
+		<article class="artigo bg-white borda">
+			<a href="https://material.io/" target="_blank"><img src="img/MaterialDesign.png" alt="Material Design"></a>
+			<div class="conteudo-artigo">
+				<a href="https://material.io/" target="_blank"> Material Design </a>
+				<p>O Material Design é um guia abrangente para design visual, de movimento e de interação para diversas plataformas e dispositivos. Este estilo vem sendo cada vez mais implementado em aplicações web, sendo visto como tendência atualmente.</p>
+			</div>
+		</article>
+	</main>
+	<!-- RODAPÉ -->
+	<footer class="rodape container bg-gradient">
+		<p class="copyright">
+			Copyright © MateusLucas 2017. Todos os direitos reservados.
+	</footer>
+
+	<!-- JQUERY -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script>
+		$(".abrir-menu").click(function() {
+			$(".menu").show();
+		});
+		$(".fechar-menu").click(function() {
+			$(".menu").hide();
+		});
+
+	</script>
+</body>
+
+</html>

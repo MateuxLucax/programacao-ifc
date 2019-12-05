@@ -1,0 +1,129 @@
+/* Feito com muito carinho para Rian Dziuba, de Daniele Voigt, 15-05-2018 :^) */
+
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700,900');
+
+/* Classes:
+	• Corpo da página = php
+	• Resultados = res
+	• Título = title
+	• Botões = button
+	• Para o texto ficar verde = certo
+	• Para o texto ficar vermelho = errado
+	• Botões = button
+*/
+
+/* Plano de Fundo e Fonte */
+body {
+	background-image: url(../img/space1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Titillium Web';
+	margin: 0;
+	color: #473C67;
+	font-size: 110%;
+}
+
+/* Linhas divisórias */
+hr {
+	background-color: #493E69;
+	height: 1px;
+	width: 70%;
+}
+
+/* Divisão Principal (corpo da página) */
+.php {
+	padding: 0.1em 1em 2em 0em;
+	margin: 5.5em 3em;
+	min-width: 60%;
+	height: 60%;
+	background-color: white;
+	line-height: 200%;
+	border-radius: 0.4em;
+}
+
+/* Resultados */
+.res {
+	margin: 0em 5em 0em 6em;
+	border: 3px solid #473C67;
+	padding: 1em 1.5em 1em 1.5em;
+	background-color: #FFE672;
+	color: #1B1732;
+}
+
+/* Título */
+.title {
+	font size: 140%;
+	font-weight: bold;
+	color: #473C67;
+}
+
+/* Botões */
+.button {
+	font-family: 'Titillium Web';
+	background-color: #473C67;
+	font-weight: normal;
+	color: white;
+	border-radius: 3px;
+	width: 95px;
+	height: 35px;
+	font-size: 95%;
+	text-align: center;
+	margin-bottom: 5%;
+	box-shadow: none;
+	border-color: transparent;
+}
+
+.button:hover {
+	font-family: 'Titillium Web';
+	background-color: #1B1732;
+	border-width: 2px;
+	font-size: 100%;
+}
+
+/* Label */
+label {
+	font-weight: bolder;
+}
+
+/* Inputs */
+input {
+	border-color: transparent;
+	border-radius: 3px;
+	border-width: 0.1px;
+	text-align: center;
+	background-color: #FFE672;
+	color: white;
+	font-family: 'Titillium Web';
+	font-weight: bold;
+	color: #1B1732;
+}
+
+/* Certo --> para operações efetuadas com sucesso --> fica verde */
+.certo {
+	color: green;
+}
+
+/* Errado --> para operações não efetuadas --> fica vermelho */
+.errado {
+	color: red;
+}
+
+/* Barra de Rolagem */
+::-webkit-scrollbar-track {
+    background-color: #493E69;
+}
+::-webkit-scrollbar {
+    width: 0.8em;
+}
+::-webkit-scrollbar-thumb {
+    background: #1B1732;
+    border-radius: 18px;
+}
+
+/* Link */
+a{
+	text-decoration: none;
+	font-weight: bolder;
+}

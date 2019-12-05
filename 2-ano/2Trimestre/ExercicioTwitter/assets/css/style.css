@@ -1,0 +1,22 @@
+.top-buffer { 
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.publicar {
+	margin: 7px;
+}
+
+.perfil {
+	margin-top: -32px;
+	margin-left: 16px;
+}
+
+.usuario-perfil {
+	margin-top: -48px;
+	margin-left: 78px;
+}
+
+.material-icons {
+	margin: 5px;	
+}

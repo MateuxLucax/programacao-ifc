@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../css/style.css" type="text/css">
+	<link rel="icon" href="../img/DesignFluido.jpg">
+	<title> Design Fluido </title>
+</head>
+
+<body>
+	<!-- CABEÇALHO -->
+	<header class="cabecalho container">
+		<a href="../index.html">
+			<h1 class="logo"> Web Design </h1>
+		</a>
+		<button class="abrir-menu bg-gradient"><img class="iconeMenu" src="../img/menu.png"></button>
+		<nav class="menu">
+			<a class="fechar-menu">X</a>
+			<ul>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="MobileFirst.html">Mobile First</a></li>
+				<li><a href="DesignFluido.html">Design Fluido</a></li>
+				<li><a href="DesignResponsivo.html">Design Responsivo</a></li>
+				<li><a href="DesignAdaptativo.html">Design Adaptativo</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!-- TITULO -->
+	<div class="banner container">
+		<div class="title">
+			<h2> DESIGN FLUIDO </h2>
+			<h3> Os layouts fluídos são aqueles que acompanham o tamanho da tela, apenas aumentando e diminuindo, não trocando estrutura e não pensando muito na usabilidade, vamos pensar em acessar um site em uma tv de 50″ e acessar o mesmo site em um celular.</h3>
+		</div>
+	</div>
+	<!-- CONTEUDO -->
+	<main style="text-align: justify;">
+		<div class="conteudo bg-white">
+			<h1>DESIGN FLUIDO</h1>
+			<div class="conteudo-primeiro">
+				<h2>O QUE É?</h2>
+				<p>Os layouts fluídos utilizam uma porcentagem do espaço em vez de largura fixa, ou seja, eles acompanham o tamanho da tela do dispositivo que você está usando sem mudar a estrutura.
+					<br> O maior problema com design fluido é o fato de que os elementos na página não podem se ajustar em conformidade. Isto significa que quando você mover para um monitor widescreen, a página e seu conteúdo podem parecer esticados. Se mover para uma tela menor como a de um tablet ou um smartphone tudo vai se aglomerar no meio.
+					<br> Isso pode representar alguns problemas, especialmente quando se trata de satisfação do cliente.
+				</p>
+				<img src="../img/gif3.gif" alt="Mobile First(1)" class="conteudo-img1">
+			</div>
+		</div>
+	</main>
+	<!-- RODAPÉ -->
+	<footer class="rodape container bg-gradient">
+		<p class="copyright">
+			Copyright © MateusLucas 2017. Todos os direitos reservados.
+	</footer>
+
+	<!-- JQUERY -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script>
+		$(".abrir-menu").click(function() {
+			$(".menu").show();
+		});
+		$(".fechar-menu").click(function() {
+			$(".menu").hide();
+		});
+
+	</script>
+</body>
+
+</html>

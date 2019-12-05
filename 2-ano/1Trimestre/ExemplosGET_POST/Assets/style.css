@@ -1,0 +1,41 @@
+html {
+    font: 15pt 'Open Sans', sans-serif;
+    text-align: justify;
+}
+body {
+    background: url("wallpaper.png") repeat fixed top center;
+    background-size: cover;
+}
+
+div {
+    background-color: rgba(255,255,255,.8);
+    border-radius: 15px;
+    margin: 5% auto 5% auto;
+    padding: 2%;
+    width: 90%;
+    min-height: 500px;
+}
+
+fieldset {
+   border: 2px solid black;
+   border-radius: 15px;
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+    color: #273747;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+span.foco {
+    font-weight: bold;
+    color: #7e050c;
+}

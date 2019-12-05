@@ -1,0 +1,34 @@
+nav ul a,
+nav .brand-logo {
+    color: white;
+}
+
+p {
+    line-height: 2rem;
+}
+
+.sidenav-trigger {
+    color: white;
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+footer.page-footer {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}

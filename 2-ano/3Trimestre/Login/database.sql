@@ -1,0 +1,10 @@
+CREATE DATABASE Criptografia;
+
+USE Criptografia;
+
+CREATE TABLE Login(
+  codigo INT PRIMARY KEY AUTO_INCREMENT,
+  usuario VARCHAR(150) NULL,
+  senha VARCHAR(150) NULL,
+  nome VARCHAR(150) NULL
+) ENGINE = InnoDB DEFAULT CHARSET=latin1;

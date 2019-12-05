@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../css/style.css" type="text/css">
+	<link rel="icon" href="../img/DesignResponsivo.jpg">
+	<title> Design Responsivo </title>
+</head>
+
+<body>
+	<!-- CABEÇALHO -->
+	<header class="cabecalho container">
+		<a href="../index.html">
+			<h1 class="logo"> Web Design </h1>
+		</a>
+		<button class="abrir-menu bg-gradient"><img class="iconeMenu" src="../img/menu.png"></button>
+		<nav class="menu">
+			<a class="fechar-menu">X</a>
+			<ul>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="MobileFirst.html">Mobile First</a></li>
+				<li><a href="DesignFluido.html">Design Fluido</a></li>
+				<li><a href="DesignResponsivo.html">Design Responsivo</a></li>
+				<li><a href="DesignAdaptativo.html">Design Adaptativo</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!-- TITULO -->
+	<div class="banner container">
+		<div class="title">
+			<h2> DESIGN RESPONSIVO </h2>
+			<h3> Design Responsivo é uma técnica de estruturação HTML e CSS, em que o site se adapta ao browser do usuário sem precisar definir diversas folhas de estilos para cada resolução.</h3>
+		</div>
+	</div>
+	<!-- CONTEUDO -->
+	<main style="text-align: justify;">
+		<div class="conteudo bg-white">
+			<h1>DESIGN RESPONSIVO</h1>
+			<div class="conteudo-primeiro">
+				<h2>COMO SURGIU?</h2>
+				<p>Em 2010, pensando em melhorar a sua experiência de navegação, Ethan Marcotte criou o artigo Responsive Web Design para o blog A List Apart. Ele apresenta o arquiteto inglês Christopher Wren, que disse certa vez que arquitetura é uma arte que “objetiva a eternidade”. Todo arquiteto que se preze quer construir um prédio que seja admirado (e habitado) por séculos… Infelizmente o Design Digital não tem a permanência da arquitetura. Na verdade, o que é projetado para internet hoje, já estará desatualizado daqui a duas semanas!
+				</p>
+				<img src="../img/DesignResponsivo.jpg" alt="Mobile First(1)" class="conteudo-img1">
+			</div>
+		</div>
+		<div class="conteudo bg-white">
+			<h1>PORQUE USAR?</h1>
+			<div class="conteudo-segundo">
+				<p>Nos tempos atuais, além dos desktops e notebooks, é possível acessar a internet através de smartphones, tablets, televisores e já existem até mesmo geladeiras que possuem internet para algumas finalidades, como buscar receitas ou ler as últimas notícias, por exemplo.<br> De acordo com a pesquisa realizada pela WMcCann, 41% dos entrevistados acessam a internet pelo celular e, dentre estes, 47% utilizam banda larga móvel (3G). Além disso, 44,4% das pessoas que ainda possuíam o celular convencional, disseram que pretendiam trocar de aparelho em 6 meses ou menos.
+
+				</p>
+				<img src="../img/FlatDesign.png" alt="Mobile First(2)" class="conteudo-img2">
+			</div>
+		</div>
+		<div class="conteudo bg-white">
+			<h1>COMO FAZER?</h1>
+			<div class="conteudo-primeiro-sem-imagem">
+				<p>O Design Responsivo usa Media Queries, que em uma tradução livre é consulta de mídia. São expressões que direcionam o visitante do seu site para uma folha de estilos diferente de acordo com o dispositivo que ele estiver utilizando.
+				</p>
+				<br>
+				<br>
+				<br>
+				<br>
+				<img src="../img/Design-Responsivo.jpg" class="codigo">
+			</div>
+		</div>
+	</main>
+	<!-- RODAPÉ -->
+	<footer class="rodape container bg-gradient">
+		<p class="copyright">
+			Copyright © MateusLucas 2017. Todos os direitos reservados.
+	</footer>
+
+	<!-- JQUERY -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script>
+		$(".abrir-menu").click(function() {
+			$(".menu").show();
+		});
+		$(".fechar-menu").click(function() {
+			$(".menu").hide();
+		});
+
+	</script>
+</body>
+
+</html>

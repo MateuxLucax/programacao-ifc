@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Area 01 | Quem somos?</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png" />
+
+    <!-- Fonte Roboto -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,300,700|Roboto+Slab:300|Roboto:300" rel="stylesheet" />
+
+    <!-- CSS -->
+    <link href="assets/css/gallery-dark-materialize.css" rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+
+  <body class="white">
+
+    <!-- Navbar e Cabeçalho -->
+    <nav class="nav-extended nav-full-header z-depth-1 blue-grey darken-3">
+      <div class="nav-background">
+        <div class="background-quemSomos"></div>
+      </div>
+      <div class="nav-wrapper container">
+        <a href="index.html" class="brand-logo"><img src="assets/img/logoBranca.png" style="height: 10vh;" alt="imagem"></a>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a class="modal-trigger" href="#modalPesquisa" style="margin-top: 0.2rem"><i class="material-icons">search</i></a></li>
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="quemSomos.html">Quem somos?</a></li>
+          <li><a href="entrar.html">Entrar</a></li>
+        </ul>
+
+      </div>
+
+      <div class="nav-header valign-wrapper">
+        <div class="center">
+          <h1>QUEM SOMOS?</h1>
+        </div>
+      </div>
+
+    </nav>
+    <ul class="side-nav" id="nav-mobile">
+      <li><a class="modal-trigger" href="#modalPesquisa" style="margin-top: 0.2rem"><i class="material-icons">search</i>Pesquisar</a></li>
+      <li><a href="index.html"><i class="material-icons">home</i>Home</a></li>
+      <li class="active"><a href="quemSomos.html"><i class="material-icons">group</i>Quem somos?</a></li>
+      <li><a href="entrar.html"><i class="material-icons">person</i>Entrar</a></li>
+      <li><a href="registrar.html"><i class="material-icons">person_add</i>Cadastre-se</a></li>
+    </ul>
+
+    
+    <!-- Modal de pesquisa -->
+    <div id="modalPesquisa" class="modal">
+      <form action="pesquisa.html" method="POST">
+        <div class="modal-content">
+          <div class="container" style="margin-top: 40vh;">
+            <div class="input-field">
+              <i class="material-icons prefix" style="margin-top: 0.5rem">search</i>
+              <input id="pesquisa" type="text" class="validate">
+              <label for="pesquisa">Digite o que procura</label>
+            </div>
+            <div class="center-align">
+              <a class="modal-action waves-effect btn-flat modal-close">Fechar</a>
+              <button type="submit" class="modal-action waves-effect btn-flat">Pesquisar</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <!-- Conteúdo -->
+    
+    <div class="container top-1-rem">
+    
+      <center><img src="assets/img/logoPreta.png" style="height: 10rem;" alt="Logo"></center>
+
+      <div class="row">
+        <div class="col s12">
+          <p>Somos um grupo formado por 4 estudantes do <a target="_blank" class="black-text bold" href="http://www.ifc-riodosul.edu.br/">Instituto Federal Catarinense - Campus Rio do Sul</a>, realizando um projeto apresentado à matéria de Programação II. Contudo, este portal pode ser utilizado de maneira livre para adquirir conhecimentos da área de Programação, Desenvolvimento Web, ou quaisquer área que possa ser útil, todo o desenvolvimento está públicado em um repositório no <a target="_blank" class="black-text bold" href="https://github.com/MateuxLucax/Area01">GitHub</a>. Por estar licenciado perante a <a class="black-text bold" target="_blank" href="https://www.gnu.org/licenses/gpl-3.0.pt-br.html">GNU General Public License v3.0</a>, é de uso irrestrito para quaisquer fim, porém sem relação com este projeto</a></p>
+          <p>Porém devido a escolhas estéticas e para o melhor desenvolvimento do projeto, este portal será destinado a notícias e eventos ligados a espaço e tecnologia.</p>
+          <p>Qualquer dúvida entre em contato conosco, conforme os contatos listados logo abaixo.</p>
+        </div>
+      </div>
+      
+      <h3 class="center">Time</h3>
+
+      <div class="row">
+        <div class="col s12 m6 l3">
+          <div class="card cartao-quem-somos hoverable">
+            <center><img class="circle responsive-img perfil-img" src="assets/img/perfilMateus.jpeg" alt="Mateus"></center>
+            <p class="center"><span class="bold">Mateus</span><br/>Web Designer<br/><br class="hide-on-small-only"/><br/><span class="bold">Contato</span>
+              <br/><a class="contato black-text" href="mailto:mateusslucass840@gmail.com">Email</a>
+              <br/><a class="contato black-text" href="tel:+5547988819255">Telefone</a>
+              <br/><a target="_blank" class="contato black-text" href="https://api.whatsapp.com/send?phone=5547988819255">WhatsApp </a></p>
+          </div>
+        </div>
+        <div class="col s12 m6 l3">
+          <div class="card cartao-quem-somos hoverable">
+            <center><img class="circle responsive-img perfil-img" src="assets/img/perfilCristian.jpg" alt="Cristian"></center>
+            <p class="center"><span class="bold">Cristian</span><br/>Programador<br/><br class="hide-on-small-only"/><br/><span class="bold">Contato</span>
+              <br/><a class="contato black-text" href="mailto:crisitanpie2002@gmail.com">Email</a>
+              <br/><a class="contato black-text" href="tel:+5547989022775">Telefone</a>
+              <br/><a target="_blank" class="contato black-text" href="https://api.whatsapp.com/send?phone=5547989022775">WhatsApp </a></p>
+          </div>
+        </div>
+        <div class="col s12 m6 l3">
+          <div class="card cartao-quem-somos hoverable">
+            <center><img class="circle responsive-img perfil-img" src="assets/img/perfilLucas.jpeg" alt="Lucas"></center>
+            <p class="center"><span class="bold">Lucas</span><br/>Programador<br/><br class="hide-on-med-and-down"/><br/><span class="bold">Contato</span>
+              <br/><a class="contato black-text" href="mailto:lucas.schwambach52@gmail.com">Email</a>
+              <br/><a class="contato black-text" href="tel:+5547988040849">Telefone</a>
+              <br/><a target="_blank" class="contato black-text" href="https://api.whatsapp.com/send?phone=5547988040849">WhatsApp </a></p>
+          </div>
+        </div>
+        <div class="col s12 m6 l3">
+          <div class="card cartao-quem-somos hoverable" id="quem-somos-girardi">
+            <center><img class="circle responsive-img perfil-img" src="assets/img/perfilGirardi.jpg" alt="Gabriel"></center>
+            <p class="center"><span class="bold">Girardi</span><br/>Administrador de banco de dados<br/><br/><span class="bold">Contato</span>
+              <br/><a class="contato black-text" href="mailto:ggirardi111@gmail.com">Email</a>
+              <br/><a class="contato black-text" href="tel:+5547988032069">Telefone</a>
+              <br/><a target="_blank" class="contato black-text" href="https://api.whatsapp.com/send?phone=5547988032069">WhatsApp </a></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="page-footer">
+        <div class="footer-copyright">
+          <div class="container black-text">
+              &copy; <script>document.write(new Date().getFullYear());</script> AREA 01, Todos os direitos reservados.
+          <a class="black-text right" target="_blank" href="https://www.gnu.org/licenses/gpl-3.0.pt-br.html">GNU General Public License v3.0</a>
+          </div>
+        </div>
+      </footer>
+
+
+    <!-- Javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/masonry.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/materialize/0.98.0/js/materialize.min.js"></script>
+    <script src="assets/js/color-thief.min.js"></script>
+    <script src="assets/js/galleryExpand.js"></script>
+    <script src="assets/js/init.js"></script>
+
+  </body>
+</html>

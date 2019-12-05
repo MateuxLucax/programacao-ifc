@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gerador de objetos</title>
+    <link rel="stylesheet" href="css/bulma.css" />
+    <link rel="icon" href="css/favicon.png">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <h1 class="title">Gerador de objetos</h1>
+        </div>
+        <form action="atributos.php" method="POST">
+        <div class="row" style="margin-top: 60px;">
+            <div class="columns">
+                    <div class="column is-one-third is-offset-one-third">
+                        <div class="columns">
+                            <div class="column is-2-quarters">
+                                <div class="field">
+                                    <div class="control">
+                                        <input class="input" type="text" placeholder="Nome da classe" required name="nomeClasse" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column is-two-quarter">
+                                <div class="field">
+                                    <div class="control">
+                                        <input class="input" type="number" placeholder="Número de atributos" required name="numAtributos" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column" style="text-align: center;">
+                            <input class="button is-primary is-outlined" type="submit" value="Avançar" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>
